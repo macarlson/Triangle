@@ -1,9 +1,9 @@
 
 public class Triangle extends GeometricObject {
 	
-	double side1;
-	double side2;
-	double side3;
+	private double side1;
+	private double side2;
+	private double side3;
 	
 	public Triangle(){
 		
@@ -14,9 +14,9 @@ public class Triangle extends GeometricObject {
 	
 	public Triangle(double Side1, double Side2, double Side3){
 		
-		Side1 = side1;
-		Side2 = side2;
-		Side3 = side3;
+		side1 = Side1;
+		side2 = Side2;
+		side3 = Side3;
 	}
 	
 	public double getside1(){
@@ -42,7 +42,7 @@ public class Triangle extends GeometricObject {
 	}
 	
 	public String toString(){
-		return "The triangle's area is " + getArea() + "and its perimeter is " + getPerimeter();
+		return "The triangle's area is " + getArea() + " and its perimeter is " + getPerimeter();
 	}
 	
 }
