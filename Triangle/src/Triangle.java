@@ -42,7 +42,7 @@ public class Triangle extends GeometricObject {
 	}
 	
 	public String toString(){
-		return "The triangle's area is " + getArea() + "and it's perimeter is " + getPerimeter();
+		return "The triangle's area is " + getArea() + "and its perimeter is " + getPerimeter();
 	}
 	
 }
